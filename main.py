@@ -1,7 +1,8 @@
 import os
 
 from dotenv import load_dotenv
-from sleep import *
+from functions.sleep import *
+from functions.load_keys import load_env_variables
 
 VERSION = 1.0
 load_dotenv()
@@ -11,9 +12,11 @@ print("version", VERSION)
 
 sleep_3()
 
+load_env_variables()
 
 
-TWITTER_API_KEY = os.getenv('TWITTER_API_KEY')
-TWITTER_SECRET = os.getenv('TWITTER_SECRET')
-TWITTER_BEARER_TOKEN = os.getenv('TWITTER_BEARER_TOKEN')
+
+
+
+
 
