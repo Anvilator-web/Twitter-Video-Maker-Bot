@@ -26,10 +26,10 @@ def load_env_variables():
     twitter_secret = os.getenv("TWITTER_SECRET")
     twitter_bearer_token = os.getenv("TWITTER_BEARER_TOKEN")
 
-    sleep_2()
+    sleep_1()
 
     rich.print('|--------------------------------------------------------------------|')
-    rich.print('|[green]API Keys loaded[/green]✔️                                                    |')
+    rich.print('|[green]API Keys loaded ✔[/green]️                                                   |')
     rich.print('|____________________________________________________________________|')
 
 
